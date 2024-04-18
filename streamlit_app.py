@@ -45,8 +45,3 @@ if not st.session_state['login_status']:
 elif st.session_state['show_details_form']:
     show_details_form()
 
-# Footer with help info
-st.markdown("""
-### Need Help?
-If you have any questions, please visit our [documentation](https://docs.streamlit.io) and [community forums](https://discuss.streamlit.io).
-""")
